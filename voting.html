@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link rel="stylesheet" href="styles/styles.css" type="text/css">
+  <script src="js/voting.js"></script>
+  <title>Voting Information</title>
+</head>
+<body>
+  <div>
+      <form>
+        <label for="age">We need your age before moving forward!</label>
+        <input id="age" type="number">
+        <button type="submit">Show me Voting info!</button>
+      </form>
+
+    <!-- if age <== 17  -->
+
+      <div id="belowage" class="hidden">
+        
+        <p><a href = "https://www.pbs.org/parents/lets-vote">Here's some info on what voting will look like</a></p>
+
+      </div>
+
+    <!-- else -->
+
+    <div id="aboveage" class="hidden">
+
+      <p><a href = "https://www.usa.gov/voting">Learn about voting</a></p>
+    </div>
+</div>
+
+</body>
+</html>
